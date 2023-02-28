@@ -7,6 +7,8 @@ html {
   font-family: Akkurat, Arial, sans-serif;
 }
 
+body{background-color: aqua;}
+
 .header {
   height: 70px;
   width: 100%;
@@ -30,7 +32,7 @@ html {
   font-weight: 400;
 }
 
-#nav-droplist{
+#nav-droplist {
   padding: 0px 0px 0px 251px;
 }
 
@@ -162,22 +164,19 @@ h1 {
 
 .card-container1 {
   background-color: black;
-  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodoshippo%3AflexRegular)
-    no-repeat;
+  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodoshippo%3AflexRegular) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .card-container2 {
-  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodoshippo%3AflexRegular)
-    no-repeat;
+  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodoshippo%3AflexRegular) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .card-container3 {
-  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodoshippo%3AflexRegular)
-    no-repeat;
+  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodoshippo%3AflexRegular) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -273,29 +272,29 @@ ul {
     padding-top: 20px;
     padding-bottom: 0;
   }
-  
+
   #nav-droplist {
     padding-left: 30px;
   }
-  
-  
+
+
   #nav-img {
     padding: 20px;
   }
-  
+
   #nav-login {
     padding: 0;
     font-size: 16px;
   }
-  
-  .items-container {
-   width: 100%;
-   display: flex;
-flex-direction: row;
 
-    
-  
-    
+  .items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+
+
   }
 
 
@@ -306,28 +305,31 @@ flex-direction: row;
     margin-right: 0;
     padding: 20px;
   }
-  
+
   .main-heading .main-para {
-    
+
     padding: 20px;
     font-size: 15px;
     text-align: center;
   }
-  .card-container1, .card-container2, .card-container3 {
+
+  .card-container1,
+  .card-container2,
+  .card-container3 {
     height: auto;
     width: 100%;
     margin: 0px 0;
   }
-  
+
   .card-header {
     font-size: 24px;
   }
-  
+
   .card-para {
     font-size: 16px;
     padding: 0 20px;
   }
-  
+
   .card-butt {
     font-size: 30px;
     left: 20px;
@@ -336,21 +338,3 @@ flex-direction: row;
     padding-top: 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
