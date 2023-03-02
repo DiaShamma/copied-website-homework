@@ -5,6 +5,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-family: Akkurat, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -61,7 +62,7 @@ h1 {
 /*-------------- main section--------------*/
 
 .main-content {
-  background-image: linear-gradient(0deg, #dd4949, #48e37d);
+  background-image: linear-gradient(0deg, #dd49495e, #48e37d);
   height: 100vh;
 }
 
@@ -160,22 +161,19 @@ h1 {
 
 .card-container1 {
   background-color: black;
-  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodoshippo%3AflexRegular)
-    no-repeat;
+  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodos-website---flexcard-afbeelding-1---880-x-1070.jpg/triodoshippo%3AflexRegular) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .card-container2 {
-  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodoshippo%3AflexRegular)
-    no-repeat;
+  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodos-website---flexcard-afbeelding-3---880-x-1070.jpg/triodoshippo%3AflexRegular) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .card-container3 {
-  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodoshippo%3AflexRegular)
-    no-repeat;
+  background: url(https://www.triodos.nl/binaries/content/gallery/tbnl/flex-card-images/divers/campagne/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodos-website---flexcard-afbeelding-9---880-x-1070v2.jpg/triodoshippo%3AflexRegular) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -211,7 +209,7 @@ footer {
 .location-butt {
   display: inline-block;
   color: #fff;
-  border: 1px solid gray;
+  border: 1px solid #fff;
   height: 62px;
   width: 350px;
   border-radius: 7px;
@@ -300,6 +298,7 @@ ul {
     font-size: 15px;
     text-align: center;
   }
+
   .card-container1,
   .card-container2,
   .card-container3 {
