@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #48e37d;
+}
+
 .header {
   height: 70px;
   width: 100%;
