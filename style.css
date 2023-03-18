@@ -323,15 +323,11 @@ ul {
   content: " > ";
 }
 
-
-
-
 /*-------------- Media Queries --------------*/
 
 /* // Media query for screens smaller than 394px // */
 
-
-@media  (max-width: 394px) {
+@media (max-width: 394px) {
   .header {
     height: 60px;
     width: 100%;
@@ -506,11 +502,7 @@ ul {
     font-size: 18px;
     line-height: 32px;
   }
-
 }
-
-
-
 
 /* // Styles for screens between 395px and 412px // */
 
@@ -691,14 +683,6 @@ ul {
   }
 }
 
-
-
-
-
-
-
-
-
 /* // Styles for screens between 413px and 820px // */
 
 @media (min-width: 413px) and (max-width: 820px) {
@@ -815,12 +799,10 @@ ul {
     font-size: 45px;
     font-style: normal;
   }
-  
+
   .viewText {
     font-size: 22px;
   }
-
-
 
   /*-------------- footer--------------*/
 
@@ -871,8 +853,6 @@ ul {
   }
 }
 
-
-
 /* // Styles for screens between 821px and 1024px // */
 
 @media (min-width: 821px) and (max-width: 1024px) {
@@ -884,7 +864,7 @@ ul {
     padding-top: 7px;
     width: 35px;
   }
-  
+
   #top-line {
     border-bottom: 6px solid #00006b;
   }
@@ -998,12 +978,10 @@ ul {
     font-size: 45px;
     font-style: normal;
   }
-  
+
   .viewText {
     font-size: 22px;
   }
-
-
 
   /*-------------- footer--------------*/
 
@@ -1044,10 +1022,6 @@ ul {
     top: 295px;
     right: 7px;
   }
-
-  /* .contact ul {
-    display: block;
-  } */
 
   .contact ul li a {
     font-size: 22px;
